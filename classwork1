@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int first_number (int a){
+  return a / 100;
+}
+
+int
+main ()
+{
+  int x;
+  cout << "Введите число" << endl;
+  cin >> x;
+  cout << "Первая цифра" << first_number (x)<< endl;
+  return 0;
+}
