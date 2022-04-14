@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int prelast_number(int f){
+    return (f % 100) / 10;
+}
+int main ()
+{
+  int y;
+  cout << "Введите число" << endl;
+  cin >> y;
+  cout << "Предпоследняя цифра" << prelast_number(y);
+  return 0;
+}
